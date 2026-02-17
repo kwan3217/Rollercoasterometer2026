@@ -1,3 +1,5 @@
 /hardware/kicad/.history/
 /data/
-/hardware/kicad/rollercoasterometer2026-backups/
+/hardware/kicad/*-backups/
+/hardware/kicad/fp-info-cache
+/hardware/kicad/*-cache.lib
