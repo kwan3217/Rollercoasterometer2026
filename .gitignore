@@ -5,3 +5,8 @@
 /hardware/kicad/*-cache.lib
 *.FCBak
 
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/rollercoasterometer2026.iml
