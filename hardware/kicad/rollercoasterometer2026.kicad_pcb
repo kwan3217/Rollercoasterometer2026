@@ -2274,7 +2274,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/RP-006426-DD-A-Raspberry Pi Pico 2 3D CAD Model R5 24 07 24.step"
+		(model "${KIPRJMOD}/footprints.pretty/stp/RP-006426-DD-A-Raspberry Pi Pico 2 3D CAD Model R5 24 07 24.step"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -2694,7 +2694,7 @@
 			(uuid "d2d78417-4ad2-42ae-8532-7157152f4cae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/CLM-107-02-LM-D-A.step"
+		(model "${KIPRJMOD}/footprints.pretty/stp/CLM-107-02-LM-D-A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2723,7 +2723,7 @@
 			)
 		)
 		(property "Value" "LIS2MDLTR"
-			(at 6.35 0 180)
+			(at 6.35 0 0)
 			(layer "F.SilkS")
 			(uuid "9649d24c-ff81-4974-8a06-f6d1d9fd1145")
 			(effects
@@ -3073,7 +3073,7 @@
 			(uuid "e26ddb1e-7885-4101-ad4c-624c65630f14")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/LIS2MDLTR.step"
+		(model "${KIPRJMOD}/footprints.pretty/stp/LIS2MDLTR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3856,7 +3856,7 @@
 			(uuid "d17ccc02-ac03-4845-b1d2-46a48dd81e84")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/SparkFun_GPS_ZED-F9R_BoB.wrz"
+		(model "${KIPRJMOD}/footprints.pretty/wrl/SparkFun_GPS_ZED-F9R_BoB.wrz"
 			(offset
 				(xyz -14.859 17.87144 11.8364)
 			)
@@ -4437,7 +4437,7 @@
 			(uuid "b477476a-0e0f-4685-8473-fff1dc5f8089")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/0472192001.stp"
+		(model "${KIPRJMOD}/footprints.pretty/stp/0472192001.stp"
 			(offset
 				(xyz 0 0.6 0.8)
 			)
@@ -4448,7 +4448,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/footprints.pretty/microsd.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/wrl/microsd.wrl"
 			(offset
 				(xyz -5.715 -7.874 1.016)
 			)
@@ -7375,7 +7375,7 @@
 			(uuid "675402be-23a8-4328-9992-ae246b4f756c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/BMP585_Stamp.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/wrl/BMP585_Stamp.wrl"
 			(offset
 				(xyz -132.08 101.6 0.75)
 			)
@@ -7701,7 +7701,7 @@
 			(uuid "1893724e-5aee-422a-807d-f6ce9d78e9c2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/LIS2MDL_Stamp.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/wrl/LIS2MDL_Stamp.wrl"
 			(offset
 				(xyz -132.08 83.82 0)
 			)
@@ -8161,7 +8161,7 @@
 			(uuid "da9bb1c6-4316-4bb5-8973-492874269682")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ADXL375_Stamp.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/wrl/ADXL375_Stamp.wrl"
 			(offset
 				(xyz -132.08 119.38 0.75)
 			)
@@ -9028,7 +9028,7 @@
 			(uuid "2ce93df2-bafd-4a44-b446-25c76194ae43")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/ADIS16465-2BMLZ.STEP"
+		(model "${KIPRJMOD}/footprints.pretty/stp/ADIS16465-2BMLZ.STEP"
 			(offset
 				(xyz 8.49 9.57 19.8)
 			)
@@ -10899,7 +10899,7 @@
 			(uuid "c6d7a91b-f419-4104-9292-4952c6d82e94")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/LGA_CC-14-1_ADI.step"
+		(model "${KIPRJMOD}/footprints.pretty/stp/LGA_CC-14-1_ADI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11685,7 +11685,7 @@
 			(uuid "744edd6a-7888-40e0-9830-c43da0fe4dea")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/footprints.pretty/bmp585.step"
+		(model "${KIPRJMOD}/footprints.pretty/stp/bmp585.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14403,62 +14403,6 @@
 		(uuid "eee72664-9575-49fd-b5df-36cc7e4a30e7")
 	)
 	(segment
-		(start 110.95 155.526799)
-		(end 103.556001 148.1328)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "224cc88d-5203-455c-8850-1c53e9530803")
-	)
-	(segment
-		(start 85.344 145.719052)
-		(end 85.344 125.9634)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "48ad9bac-86c8-4ed0-9bae-c46bd1ac39cc")
-	)
-	(segment
-		(start 85.344 125.9634)
-		(end 85.5774 125.73)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "4b46314b-aad3-4b7e-9375-6f40e99301bf")
-	)
-	(segment
-		(start 87.757748 148.1328)
-		(end 85.344 145.719052)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "5e625a65-b7fe-407a-8c2c-4445d583290f")
-	)
-	(segment
-		(start 85.5774 125.73)
-		(end 90.17 125.73)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "7dbbd329-ea25-4e1b-8834-6678769879b6")
-	)
-	(segment
-		(start 103.556001 148.1328)
-		(end 87.757748 148.1328)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "8b7c3e38-19ae-4255-ba25-16e9e0ac68bc")
-	)
-	(segment
-		(start 110.95 158.419)
-		(end 110.95 155.526799)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "/SYNC_IMU")
-		(uuid "ad8442d0-0530-4687-99a8-570133dc28d9")
-	)
-	(segment
 		(start 99.1616 148.4376)
 		(end 87.631496 148.4376)
 		(width 0.1524)
@@ -14513,6 +14457,62 @@
 		(layer "F.Cu")
 		(net "/~{RST}_IMU")
 		(uuid "de991115-0fec-4f42-ad0e-8d565d517a22")
+	)
+	(segment
+		(start 110.95 155.526799)
+		(end 103.556001 148.1328)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "224cc88d-5203-455c-8850-1c53e9530803")
+	)
+	(segment
+		(start 85.344 145.719052)
+		(end 85.344 125.9634)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "48ad9bac-86c8-4ed0-9bae-c46bd1ac39cc")
+	)
+	(segment
+		(start 85.344 125.9634)
+		(end 85.5774 125.73)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "4b46314b-aad3-4b7e-9375-6f40e99301bf")
+	)
+	(segment
+		(start 87.757748 148.1328)
+		(end 85.344 145.719052)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "5e625a65-b7fe-407a-8c2c-4445d583290f")
+	)
+	(segment
+		(start 85.5774 125.73)
+		(end 90.17 125.73)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "7dbbd329-ea25-4e1b-8834-6678769879b6")
+	)
+	(segment
+		(start 103.556001 148.1328)
+		(end 87.757748 148.1328)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "8b7c3e38-19ae-4255-ba25-16e9e0ac68bc")
+	)
+	(segment
+		(start 110.95 158.419)
+		(end 110.95 155.526799)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "/SYNC_IMU")
+		(uuid "ad8442d0-0530-4687-99a8-570133dc28d9")
 	)
 	(segment
 		(start 109.982 156.972)
@@ -21295,10 +21295,6 @@
 				(xy 125.028855 94.288255) (xy 125.062115 94.2805) (xy 139.097885 94.2805)
 			)
 		)
-	)
-	(group ""
-		(uuid "b803519c-ea55-42de-b558-b39b8a2a385f")
-		(members "0e99d382-a1bb-4fed-887f-52b2d2b784d5" "92e8e434-66c4-4959-ba12-644ba9c26c5c")
 	)
 	(embedded_fonts no)
 )
