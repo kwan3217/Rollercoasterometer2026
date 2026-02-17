@@ -61,7 +61,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|83055000|160275000|d2d78417-4ad2-42ae-8532-7157152f4cae|2ce93df2-bafd-4a44-b446-25c76194ae43",
+          ""
+        ],
+        [
+          "solder_mask_bridge|84055000|160275000|03c89b01-9c5e-4929-8b7a-1df7cbe4105b|5bc42ac8-ead9-4042-acc7-c64e30cc0d47",
+          ""
+        ],
+        [
+          "solder_mask_bridge|85055000|160275000|ddf6014f-ea33-4f10-9975-770be9041b24|be1a04d0-e199-46e8-b3a2-05f975c0a7f6",
+          ""
+        ],
+        [
+          "solder_mask_bridge|85055000|163476000|da24de1e-788a-4f69-8fe4-b9e9ef963025|0e3c06f4-04aa-408b-9a0d-daf632768639",
+          ""
+        ],
+        [
+          "solder_mask_bridge|86055000|163476000|60c7cabd-0ade-4615-b35a-86163cfae4e9|772c46d0-c548-46ba-98c7-130588f0a775",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -136,19 +157,19 @@
         "max_error": 0.005,
         "min_clearance": 0.1524,
         "min_connection": 0.1524,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.1524,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1524,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.1524,
-        "min_via_annular_width": 0.254,
+        "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -232,6 +253,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false,
@@ -499,7 +524,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -510,15 +535,15 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.1524,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.8,
         "line_style": 0,
@@ -528,10 +553,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.1524,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],

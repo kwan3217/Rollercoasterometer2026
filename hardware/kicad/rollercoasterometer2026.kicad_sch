@@ -4287,6 +4287,10 @@
 		(uuid "09aaece1-f7b4-43b7-9252-c83ea91c0949")
 	)
 	(no_connect
+		(at 50.8 63.5)
+		(uuid "0cc744a8-1a5e-49e4-b1b8-e81316ac05fb")
+	)
+	(no_connect
 		(at 91.44 147.32)
 		(uuid "18e9be3f-2c28-4d0b-b2d9-b7f481ffae94")
 	)
@@ -4305,6 +4309,10 @@
 	(no_connect
 		(at 50.8 152.4)
 		(uuid "3b06d9e7-d191-4f6d-8eef-2b23f62e436a")
+	)
+	(no_connect
+		(at 53.34 66.04)
+		(uuid "4920adb1-f330-43a6-8012-00f798b5752b")
 	)
 	(no_connect
 		(at 139.7 124.46)
@@ -4612,16 +4620,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52aa4d57-4cfe-48d6-987f-9d81b8110215")
-	)
-	(wire
-		(pts
 			(xy 78.74 185.42) (xy 99.06 185.42)
 		)
 		(stroke
@@ -4802,6 +4800,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dba0ee-2027-4d4a-8aa2-0628484c2a26")
+	)
+	(wire
+		(pts
 			(xy 99.06 182.88) (xy 99.06 185.42)
 		)
 		(stroke
@@ -4809,16 +4817,6 @@
 			(type default)
 		)
 		(uuid "97d31455-b61c-4e54-8b71-f9ead1c9eeea")
-	)
-	(wire
-		(pts
-			(xy 38.1 63.5) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98076e1e-d4b0-451d-a1d5-9398c5bdf3f9")
 	)
 	(wire
 		(pts
@@ -5360,23 +5358,13 @@
 		)
 		(uuid "8c8179b6-9fb1-4bed-a391-35b3b640686f")
 	)
-	(label "~{CS}_MAG"
+	(label "DR_BMP"
 		(at 101.6 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "8cf2d804-0d48-4144-83c3-d3311c57457d")
-	)
-	(label "DR_BMP"
-		(at 38.1 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "92575ed0-8348-4be4-b1e6-9d4aebe8cf63")
 	)
@@ -5808,11 +5796,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0516faa2-6407-4d58-a15c-324ac5006bca")
 		(property "Reference" "U101"
-			(at 59.69 29.21 0)
-			(hide yes)
+			(at 67.818 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5823,7 +5809,6 @@
 		)
 		(property "Value" "RPiPico2"
 			(at 113.03 128.27 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6698,12 +6683,14 @@
 		)
 		(pin "11"
 			(uuid "d0ac1359-ba34-4c9c-b2cf-8deadba1e0f9")
+			(alternate "NC")
 		)
 		(pin "7"
 			(uuid "1ea32969-82e8-43ba-bf1e-1d193e48d0ac")
 		)
 		(pin "10"
 			(uuid "c7370671-8ed6-428a-985f-abcf1c7302d7")
+			(alternate "NC")
 		)
 		(pin "5"
 			(uuid "dafc6468-c940-43d1-9f51-ed8f5c704b5f")
@@ -6723,6 +6710,7 @@
 		)
 		(pin "1"
 			(uuid "04e84853-18d3-4b83-91d0-78b17f44571a")
+			(alternate "NC")
 		)
 		(pin "8"
 			(uuid "5be34a0b-aea6-4fb1-ac41-328b643381a9")
@@ -9044,7 +9032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8141d1-2bc0-4b08-aecd-87cb6f4fa383")
-		(property "Reference" "J1"
+		(property "Reference" "J101"
 			(at 163.195 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9131,7 @@
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "J1")
+					(reference "J101")
 					(unit 1)
 				)
 			)
