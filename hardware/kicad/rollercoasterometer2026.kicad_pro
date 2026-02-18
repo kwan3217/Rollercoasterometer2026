@@ -61,28 +61,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|83055000|160275000|d2d78417-4ad2-42ae-8532-7157152f4cae|2ce93df2-bafd-4a44-b446-25c76194ae43",
-          ""
-        ],
-        [
-          "solder_mask_bridge|84055000|160275000|03c89b01-9c5e-4929-8b7a-1df7cbe4105b|5bc42ac8-ead9-4042-acc7-c64e30cc0d47",
-          ""
-        ],
-        [
-          "solder_mask_bridge|85055000|160275000|ddf6014f-ea33-4f10-9975-770be9041b24|be1a04d0-e199-46e8-b3a2-05f975c0a7f6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|85055000|163476000|da24de1e-788a-4f69-8fe4-b9e9ef963025|0e3c06f4-04aa-408b-9a0d-daf632768639",
-          ""
-        ],
-        [
-          "solder_mask_bridge|86055000|163476000|60c7cabd-0ade-4615-b35a-86163cfae4e9|772c46d0-c548-46ba-98c7-130588f0a775",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -745,6 +724,10 @@
     [
       "93454a64-32f1-49ce-8a0c-b8a3a54d5194",
       "HiG Sensor"
+    ],
+    [
+      "568521d2-74a1-444e-bda3-8885f026155a",
+      "Controller"
     ]
   ],
   "text_variables": {},
